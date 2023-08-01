@@ -1,0 +1,44 @@
+body {
+    font-family: 'Kanit', sans-serif;
+
+}
+nav a {
+    text-decoration: none;
+    color: black;
+
+}
+
+a:hover {
+    background-color: #F7BA00;
+}
+
+.my-name {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+.my-name h1 {
+    margin: 0;
+    
+}
+.headline{
+    background-color: #F7BA00;
+    display: inline;
+}
+
+.my-name p {
+
+    font-size: 20px;
+    font-family: AngsanaUPC !important;
+}
+
+.home-img {
+    width: 12vw;
+    border-radius: 50%;
+    border: 1px solid navy;
+    border-width: 4px;
+}
+
+

@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Kanit:wght@600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <title>Contact</title>
+    <style>
+        body {
+            font-family: 'Kanit', sans-serif;
+        }
+
+        .my-container {
+            width: 40vw;
+            min-width: 300px;
+            border: 1px solid gray;
+            border-radius: 10px;
+            padding: 15px;
+        }
+
+        input {
+            width: 35vw;
+            height: 20px;
+            display: block;
+        }
+
+        select {
+            display: block;
+            height: 25px;
+            width: 35.5vw;
+        }
+
+        textarea {
+            width: 35vw;
+        }
+
+        main h1 {
+            background-color: #F7BA00;
+            display: inline;
+        }
+
+        p {
+            margin: 5px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="my-name">
+        <div>
+            <h1>ATCHARIYA PHATISENA</h1>
+            <!-- NAV -->
+            <nav>
+                <a href="./index.html">Home</a> / <a href="./education.html">Education</a> /
+                <a href="./work.html">Work Experience</a> / <a href="./contact.html">Contact Me</a>
+                <hr />
+            </nav>
+        </div>
+
+        <p>อั จ ฉ ริ ย ะ &nbsp;&nbsp;&nbsp; ผ า ติ เ ส น ะ &nbsp;&nbsp;&nbsp;, เ ว็ บ ไ ซ ต์</p>
+    </div>
+    <br>
+    <!-- MAIN -->
+    <main>
+        <h1>Contact Me</h1>
+        <br>
+        <br>
+        <div class="my-container">
+            <p>Enter your info</p>
+            <p>Your Name</p>
+            <form action="">
+                <input type="text" id="fname" name="fname">
+
+                <p>Your E-mail</p>
+                <input type="text" id="fname" name="fname">
+                <p>Gender</p>
+                <select>
+                    <option value="default">selected..</option>
+                    <option value="male">male</option>
+                    <option value="female">female</option>
+                    <option value="LGBTQ+">LGBTQ+</option>
+                </select>
+
+                <p>Message</p>
+                <textarea name="" id="" cols="30" rows="10"></textarea>
+
+                <br>
+                <button type="submit">send</button>
+                <button type="reset">clear</button>
+            </form>
+        </div>
+    </main>
+
+</body>
+
+</html>
